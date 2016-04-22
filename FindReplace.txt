@@ -1,0 +1,39 @@
+/*Find and replace is case sensitive					                                */
+/*In order to use this action, create 2 parameters:				                    */
+/*	a parameter that contains the expression that you want to find		        */
+/*	a parameter for the expression that you want to replace.		              */
+	
+/*Open items							                                                    */
+/*Can we use input boxes to define the string sought and the replace string?	*/
+
+let i (integer)
+let lst (list)
+let FindStringWithWildcards (string)
+let currItem (body)
+let countReplace (integer)
+let countCheck (integer)
+
+set lst  = geoset.Children 
+i = 1
+countReplace = 0
+countCheck = 0
+
+/*check each item in the list called lst to see if it contains the string to be replaced.*/
+for i while i <= lst->Size() 
+{
+	Set currItem = lst->GetItem(i)
+	
+	/*if the string to be replaced is found, replace the string and increment both counters. else, increment just one counter*/
+	if currItem.Name->Search(FindString)>=0
+	{
+		countReplace = countReplace+1
+		countCheck = countCheck +1
+		currItem.Name = ReplaceSubText(currItem.Name,FindString,ReplaceString)
+	}
+	else
+	{
+		countCheck = countCheck+1
+	}
+}
+
+Message(ToString(countReplace) + " elements were renamed among " + ToString(countCheck) + " elements in the geoset.")
