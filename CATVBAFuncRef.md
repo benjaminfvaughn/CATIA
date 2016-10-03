@@ -1,4 +1,4 @@
-# Functions for creating Pads
+# Pad, creation
 ## AddNewPad
 * Requires sketch
 
