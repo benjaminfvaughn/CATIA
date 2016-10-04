@@ -12,6 +12,9 @@ The hybrid shape factory is an abstract object that provides access to generate 
 ## AddNewPadFromRef()
 * Creates pad from non-sketch wireframe geometry
 
-# Part, creation
+# Part
 ## Name
 * Return the name of a part object.
+
+## UpdateObject
+* Update an individual element in the feature tree.
