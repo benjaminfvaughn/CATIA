@@ -6,3 +6,7 @@ This is a list of CATVBA functions organized by the features that they modify. T
 
 ## AddNewPadFromRef
 * Creates pad from non-sketch wireframe geometry
+
+# Part, creation
+## Name
+* Return the name of a part object.
