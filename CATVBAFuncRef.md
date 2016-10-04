@@ -1,10 +1,15 @@
 This is a list of CATVBA functions organized by the features that they modify. The list also contains terse, useful implementation notes.
 
+# HybridShapeFactory
+The hybrid shape factory is an abstract object that provides access to generate and modify geometry. Think of HybridShapeFactory like a library/toolbox.
+## AddNewFill()
+* Create a fill
+
 # Pad, creation
-## AddNewPad
+## AddNewPad()
 * Requires sketch
 
-## AddNewPadFromRef
+## AddNewPadFromRef()
 * Creates pad from non-sketch wireframe geometry
 
 # Part, creation
