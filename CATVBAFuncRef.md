@@ -26,7 +26,7 @@ SelectElement2 is the simplest member of the SelectElement family alongside Sele
 * Inputs: filter [array], status bar message [string], ObjectSelectionBeforeCommandUsePossibility [boolean]
 * Output: selection
 
-** Example: **
+**Example:**
 
 <pre><code>
 Private Sub btnRefPoint_Click()
