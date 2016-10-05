@@ -22,6 +22,7 @@ The hybrid shape factory is an abstract object that provides access to generate 
 
 ## AddNewCircleCtrRad()
 * Create a new circle with center (ctr) and radius (rad).
+
 **Example:**
 <code>Set hybridShapeCircleCtrRad = hybridShapeFactory.AddNewCircleCtrRad(centerPoint, planeRefYZ, False, radius)</code>
 
@@ -38,6 +39,7 @@ The hybrid shape factory is an abstract object that provides access to generate 
 ## UpdateObject
 * Update an individual element in the feature tree.
 * Usable on geometrical sets and individual elements.
+
 **Example:**
 <code>part.UpdateObject geoSet 'Update all the features in a geometrical set "geoSet".</code>
 
