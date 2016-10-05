@@ -33,6 +33,7 @@ The hybrid shape factory is an abstract object that provides access to generate 
 * Update an individual element in the feature tree.
 * Usable on geometrical sets and individual elements.
 
+**Example:**
 <code>
 part.UpdateObject geoSet 'Update all the features in a geometrical set "geoSet".
 </code>
