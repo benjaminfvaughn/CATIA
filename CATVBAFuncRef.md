@@ -25,3 +25,25 @@ SelectElement2 is the simplest member of the SelectElement family alongside Sele
 * Interactive selection function
 * Inputs: filter [array], status bar message [string], ObjectSelectionBeforeCommandUsePossibility [boolean]
 * Output: selection
+
+** Example: **
+
+<pre><code>
+Private Sub btnRefPoint_Click()
+'user select the reference point
+Dim sel
+Set sel = CATIA.ActiveDocument.selection
+
+Dim FilterType(0)
+FilterType(0) = "HybridShape"
+
+Me.Hide
+Call sel.SelectElement2(FilterType, "Select the reference point", False)
+Set centerPoint = sel.Item2(1).Value
+Me.Show
+RefPointTextBox.Text = centerPoint.Name
+
+Call checkForOk
+
+End Sub
+</code></pre>
