@@ -1,6 +1,4 @@
-*This is a list of CATVBA functions organized by object parent. The list also contains terse, useful implementation notes.
-*Search this list using Ctrl+F.
-*Pull requests are welcome.
+*This is a list of CATVBA functions organized by object parent. The list also contains terse, useful implementation notes. Search this list using Ctrl+F. Pull requests are welcome.*
 
 # Object
 CATIA-specific construct that has properties and methods/functions.
