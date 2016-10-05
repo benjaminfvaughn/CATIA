@@ -5,6 +5,7 @@ This is a list of CATVBA functions organized by the features that they modify. T
 * Methods that are members of the object.
 
 # Body
+A body is the solid model output of the .CATPart. It is modified by boolean operations that add, remove, or intersect volumes or other solids.
 ## AddNewPad()
 * Add a pad to an existing body
 * Requires sketch
