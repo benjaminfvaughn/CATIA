@@ -34,9 +34,7 @@ The hybrid shape factory is an abstract object that provides access to generate 
 * Usable on geometrical sets and individual elements.
 
 **Example:**
-<code>
-part.UpdateObject geoSet 'Update all the features in a geometrical set "geoSet".
-</code>
+<code>part.UpdateObject geoSet 'Update all the features in a geometrical set "geoSet".</code>
 
 # Selection
 ## SelectElement2
@@ -63,5 +61,4 @@ RefPointTextBox.Text = centerPoint.Name
 
 Call checkForOk
 
-End Sub
-</code></pre>
+End Sub</code></pre>
