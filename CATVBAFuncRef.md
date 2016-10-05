@@ -47,8 +47,7 @@ SelectElement2 is the simplest member of the SelectElement family alongside Sele
 * Output: selection
 
 **Example:**
-<pre><code>
-Private Sub btnRefPoint_Click()
+<pre><code>Private Sub btnRefPoint_Click()
 'user select the reference point
 Dim sel
 Set sel = CATIA.ActiveDocument.selection
