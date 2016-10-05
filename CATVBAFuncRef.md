@@ -13,8 +13,14 @@ The hybrid shape factory is an abstract object that provides access to generate 
 * Creates pad from non-sketch wireframe geometry
 
 # Part
+## InWorkObject
+* Change the current in work object.
+
 ## Name
 * Return the name of a part object.
+
+## Update
+* Update the entire part.
 
 ## UpdateObject
 * Update an individual element in the feature tree.
@@ -27,7 +33,6 @@ SelectElement2 is the simplest member of the SelectElement family alongside Sele
 * Output: selection
 
 **Example:**
-
 <pre><code>
 Private Sub btnRefPoint_Click()
 'user select the reference point
