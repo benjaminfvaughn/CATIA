@@ -1,4 +1,4 @@
-*This is a list of CATVBA functions organized by object parent. The list also contains terse, useful implementation notes. Search this list using Ctrl+F. Pull requests are welcome.*
+*This is a list of CATVBA functions organized by object parent. The list also contains terse and basic implementation notes. Search this list using Ctrl+F. Pull requests are welcome.*
 
 # Object
 CATIA-specific construct that has properties and methods/functions.
@@ -14,6 +14,17 @@ A body is the solid model output of the .CATPart. It is modified by boolean oper
 ## AddNewPadFromRef()
 * Add a pad to an existing body
 * Creates pad from non-sketch wireframe geometry
+
+# HybridBody
+A wireframe, surface geometry, or organizational (abstract component) of a part.
+## Name
+* Read of change the name of HybridBody
+
+# HybridBodies
+A collection of the features that comprise wireframe, surface geometry, or organizational (abstract component) in a part.
+## Add
+* Create a new HybridBody as a member of the specified HybridBodies collection.
+* Usually to create a geometrical set.
 
 # HybridShapeFactory
 The hybrid shape factory is an abstract object that provides access to generate and modify geometry. Think of HybridShapeFactory like a library/toolbox.
