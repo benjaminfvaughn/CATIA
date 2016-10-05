@@ -1,8 +1,11 @@
-This is a list of CATVBA functions organized by the features that they modify. The list also contains terse, useful implementation notes.
+*This is a list of CATVBA functions organized by object parent. The list also contains terse, useful implementation notes.
+*Search this list using Ctrl+F.
+*Pull requests are welcome.
 
 # Object
+CATIA-specific construct that has properties and methods/functions.
 ## Method
-* Methods that are members of the object.
+Methods that are members of the object.
 
 # Body
 A body is the solid model output of the .CATPart. It is modified by boolean operations that add, remove, or intersect volumes or other solids.
