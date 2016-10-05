@@ -27,6 +27,12 @@ The hybrid shape factory is an abstract object that provides access to generate 
 <code>Set hybridShapeCircleCtrRad = hybridShapeFactory.AddNewCircleCtrRad(centerPoint, planeRefYZ, False, radius)</code>
 
 # Part
+## FindObjectByName()
+* Locate an item in the feature tree by searching for its name. No need to understand the structure/organization of the feature tree.
+
+**Example:**
+<code>Set myPoint = myPart.FindObjectByName("MyPointInFeatureTree")</code>
+
 ## InWorkObject
 * Change the current in work object.
 
