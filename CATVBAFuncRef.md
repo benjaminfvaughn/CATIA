@@ -18,3 +18,9 @@ The hybrid shape factory is an abstract object that provides access to generate 
 
 ## UpdateObject
 * Update an individual element in the feature tree.
+
+# Selection
+## SelectElement2
+* Interactive selection function
+* Inputs: filter [array], status bar message [string], ObjectSelectionBeforeCommandUsePossibility [boolean]
+* Output: selection
