@@ -1,3 +1,5 @@
+CATIA automation is powerful and relatively simple if you're already familiar VBA. The challenge is learning which methods are available and how to use them. This list is my running record of methods that I have used in CATIA and their parent object. The notes were written from my experience using the function and what I though was important from the CAA API Documentation.
+
 *This is a list of CATVBA functions organized by object parent. The list also contains terse and basic implementation notes. Search this list using Ctrl+F. Pull requests are welcome.*
 
 # Object
