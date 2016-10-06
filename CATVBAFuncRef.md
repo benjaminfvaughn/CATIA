@@ -72,6 +72,8 @@ The hybrid shape factory is an abstract object that provides access to generate 
 <code>part.UpdateObject geoSet 'Update all the features in a geometrical set "geoSet".</code>
 
 # Selection
+## Search
+**Example:** <code>mySelection.search "Type=*,all"</code>
 ## SelectElement2()
 SelectElement2 is the simplest member of the SelectElement family alongside SelectElement3 and SelectElement4. It is a one-stop-shop for picking elements from the CATIA Feature Tree. It allows you to prompt the user to pick an element from the Feature Tree while limiting the users possible selections with a filter and updating the CATIA status bar to inform the user that the application is waiting for their input. The filter must be provided to the function as an array type. The array should contain a string corresponding to the type of tree elements that you wish to be selectable. I have found that it is best to create the array without a specified type (variant.)
 
