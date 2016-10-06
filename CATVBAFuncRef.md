@@ -20,7 +20,10 @@ A body is the solid model output of the .CATPart. It is modified by boolean oper
 # Collections
 A group of Products, Parts, HybridBodies, etc. in a specific scope.
 ## Count
+The **Example** shows the number of products in a product <code>curProd</code>.
+
 * Returns the number of items in a collections.
+
 **Example:** <code>subProdCount = curProd.Products.Count</code>
 
 # HybridBody
