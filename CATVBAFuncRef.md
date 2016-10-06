@@ -17,6 +17,12 @@ A body is the solid model output of the .CATPart. It is modified by boolean oper
 * Add a pad to an existing body
 * Creates pad from non-sketch wireframe geometry
 
+# Collections
+A group of Products, Parts, HybridBodies, etc. in a specific scope.
+## Count
+* Returns the number of items in a collections.
+**Example:** <code>subProdCount = curProd.Products.Count</code>
+
 # HybridBody
 A wireframe, surface geometry, or organizational (abstract component) of a part.
 ## Name
