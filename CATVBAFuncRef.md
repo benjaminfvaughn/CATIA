@@ -71,6 +71,12 @@ The hybrid shape factory is an abstract object that provides access to generate 
 **Example:**
 <code>part.UpdateObject geoSet 'Update all the features in a geometrical set "geoSet".</code>
 
+# Product
+## GetItem()
+
+## Item()
+* Access a Product or Part that is subordinate to the Product.
+
 # Selection
 ## Search
 **Example:** <code>mySelection.search "Type=*,all"</code>
